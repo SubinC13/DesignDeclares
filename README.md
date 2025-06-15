@@ -64,8 +64,8 @@ No backend or API integration is included.
 
 1. **Clone the repository**
 
-   git clone https://github.com/your-username/healthcare-portal.git
-   cd healthcare-portal
+   git clone https://github.com/SubinC13/DesignDeclares.git
+   cd DesignDeclares
 
 2. **Run the following commands**
 
