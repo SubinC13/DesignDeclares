@@ -13,39 +13,39 @@ A modern and responsive clone of the Design Declares website, built using React 
 ## 📁 Project Structure
 
 📦 design-declares-clone
-├── public/                 
-│   └── vite.svg
-├── src/                     
-│   ├── assets/             
-│   │   ├── fonts/           
-│   │   ├── images/          
-│   │   ├── mockData/         
-│   │   └── react.svg
-│   ├── components/            # Reusable UI components
-│   │   ├── AccordianComponent/
-│   │   ├── ButtonComponet/
-│   │   ├── CustomChekBox/
-│   │   ├── DeclareEmergencyForm/
-│   │   ├── EmergenctAct/
-│   │   └── ScrollIndicator/
-│   ├── containers/            # Page sections and layout containers
-│   │   ├── ActsEmergeny/
-│   │   ├── BreakDown/
-│   │   ├── DonateD/
-│   │   ├── Footer/
-│   │   ├── Header/
-│   │   ├── LatestContainer/
-│   │   ├── MenuPanel/
-│   │   ├── Newsletter/
-│   │   └── Signatories/
-│   ├── App.jsx               
-│   ├── App.css              
-│   ├── index.css            
-│   └── main.jsx
-├── index.html               
-├── package.json            
-├── vite.config.js          
-└── README.md               
+└── 📁design-declares-clone
+    └── 📁public
+    └── 📁src
+        └── App.css
+        └── App.jsx
+        └── 📁assets
+            └── 📁fonts
+            └── 📁images
+            └── 📁mockData
+        └── 📁components
+            └── 📁AccordianComponent
+            └── 📁ButtonComponet
+            └── 📁CustomChekBox
+            └── 📁DeclareEmergencyForm
+            └── 📁EmergenctAct
+            └── 📁ScrollIndicator
+        └── 📁containers
+            └── 📁ActsEmergeny
+            └── 📁BreakDown
+            └── 📁DonateD
+            └── 📁Footer
+            └── 📁Header
+            └── 📁LatestContainer
+            └── 📁MenuPanel
+            └── 📁Newsletter
+            └── 📁Signatories
+        └── index.css
+        └── main.jsx
+    └── .gitignore
+    └── eslint.config.js
+    └── index.html
+    └── package.json
+    └── vite.config.js      
 
 ## 📊 Features
 
