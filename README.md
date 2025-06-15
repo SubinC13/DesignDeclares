@@ -12,6 +12,7 @@ A modern and responsive clone of the Design Declares website, built using React 
 
 ## 📁 Project Structure
 
+```
 📦 design-declares-clone
 └── 📁design-declares-clone
     └── 📁public
@@ -46,6 +47,7 @@ A modern and responsive clone of the Design Declares website, built using React 
     └── index.html
     └── package.json
     └── vite.config.js      
+```
 
 ## 📊 Features
 
