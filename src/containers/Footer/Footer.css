@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Druk";
+  src: url("../../assets/fonts/drunkBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-section {
+  flex: 1;
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  position: relative;
+  z-index: 2;
+}
+
+.sticky-footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+  z-index: 1;
+  margin-top: -100px;
+  clip-path: inset(0 round 20px 20px 0 0);
+}
+
+.FooterEmptyGrid {
+  background-color: #000;
+  height: 4rem;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.footerGridRoot {
+  background-color: #f95d38;
+}
+
+.footerGridRoot {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerGridRoot {
+    position: unset !important;
+    width: unset !important;
+  }
+}
+
+.footerLogo {
+  font-family: "Druk", Helvetica, sans-serif !important;
+  font-size: 5.5rem !important;
+}
+
+.socialMediaLinks {
+  .MuiTypography-root {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1.3rem !important;
+  }
+}
+
+.formTItleText {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1.6rem !important;
+  color: #000 !important;
+}
+
+.textFieldFOrmFooter {
+  fieldset {
+    border-color: #000 !important;
+    border-width: 1.5px !important;
+  }
+}
+
+.footerCheckBox {
+  .custom-checkbox-box {
+    border-color: #000 !important;
+  }
+  .x-mark {
+    color: #000;
+  }
+  .checkbox-lable-sml {
+    color: #000;
+  }
+}
+
+.footerTextSmal {
+  font-size: 16px !important;
+}
+
+.footerTextSmalSpan {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.sticky-title-wrapper {
+  position: relative;
+}
+
+.sticky-title {
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+}
+
+.scrollable-content {
+  max-height: max-content !important;
+  height: fit-content !important;
+  padding-right: 10px;
+}
+
+.BreakDownHeading {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+}
+
+.dontSubHeading {
+  font-size: 28px !important;
+  line-height: 130% !important;
+  font-weight: 200 !important;
+  letter-spacing: 0;
+}

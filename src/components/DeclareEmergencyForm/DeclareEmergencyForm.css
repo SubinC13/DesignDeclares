@@ -1,0 +1,67 @@
+.declare-emergency-root {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+.form-title {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.checkbox-group {
+  margin-bottom: 1rem;
+}
+
+.form-body .MuiTextField-root,
+.form-body .MuiFormControl-root {
+  background-color: black;
+  color: white;
+}
+
+.form-body .MuiInputLabel-root,
+.form-body .MuiInputBase-root,
+.form-body .MuiSelect-root,
+.form-body .MuiOutlinedInput-notchedOutline {
+  color: white;
+  border-color: white;
+}
+
+.form-body .MuiInputBase-root input,
+.form-body .MuiInputBase-root textarea {
+  color: white;
+}
+
+.privacy-link {
+  display: block;
+  margin-top: 1rem;
+  color: #c4c4c4;
+  margin: 20px 0px 20px 0px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.75rem 2rem;
+  margin-top: 1.5rem;
+}
+
+.textFieldFOrm {
+  .MuiFormLabel-root {
+    white-space: normal;
+  }
+}
+
+.MuiFormControl-root {
+  margin: 0px !important;
+  fieldset {
+    border-radius: 0px !important;
+    border: 1px solid #fff !important;
+  }
+}

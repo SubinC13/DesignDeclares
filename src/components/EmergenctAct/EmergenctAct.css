@@ -1,0 +1,46 @@
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.EmergencyActsTable {
+  background-color: #ffff;
+  color: #000;
+}
+
+.EmergencyActsTableWrapper {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+.EmergencyActsTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #eaeaea;
+  font-family: sans-serif;
+}
+
+.EmergencyActsTable td {
+  border: 1px solid #000;
+  padding: 12px 16px;
+  vertical-align: top;
+}
+
+.indexNumber {
+  width: 60px;
+  text-align: center;
+  .MuiTypography-root {
+    font-weight: 500;
+  }
+}
+
+.titleText {
+  .MuiTypography-root {
+    font-weight: 500;
+  }
+}
+
+.descriptionText {
+  font-size: 1.1rem;
+  color: #111;
+}

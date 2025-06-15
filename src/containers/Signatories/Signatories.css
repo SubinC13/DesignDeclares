@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+  .signatory-grid {
+    column-count: 6 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .signatory-grid {
+    column-count: 5 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .signatory-grid {
+    column-count: 4 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .signatory-grid {
+    column-count: 3 !important;
+  }
+  .signatory-item {
+    font-size: 16px !important;
+  }
+  .signatoriesHeading {
+    font-size: 30px !important;
+  }
+  .signatoriesSubHeading {
+    font-size: 15px !important;
+  }
+}
+
+.signatoriesRoot {
+  padding: 2rem;
+}
+
+.signatoriesHeading {
+  line-height: 1 !important;
+  font-size: 60px !important;
+}
+
+.signatoriesSubHeadingSpan {
+  font-size: 15px !important;
+  background-color: #ff623f;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: 600 !important;
+  border-radius: 20px;
+  padding: 0px 10px;
+  height: 30px;
+}
+
+.signatoriesSubHeading {
+  font-size: 30px !important;
+}
+
+.signatory-grid {
+  column-count: 9;
+  column-gap: 40px;
+}
+
+.signatory-item {
+  font-family: Arial, Helvetica, sans-serif;
+  break-inside: avoid;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #c2c2c2;
+}
+
+.extraBold:not(.index_0) {
+  padding-top: 10px;
+}
+
+.extraBold {
+  font-weight: 900;
+  color: white;
+}

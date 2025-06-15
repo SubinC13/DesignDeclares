@@ -1,0 +1,24 @@
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .customBtn {
+    font-size: 15px !important;
+  }
+}
+
+.customBtn {
+  padding: 12px 20px !important;
+  background-color: #ffff !important;
+  border-radius: 30px !important;
+  font-size: 20px !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  box-shadow: unset !important;
+}
+
+.customBtn:hover {
+  background-color: #ff623f !important;
+}

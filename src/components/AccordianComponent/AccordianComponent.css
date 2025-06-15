@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.accordianDivider {
+  background-color: #ffff;
+  margin-top: 30px !important;
+  margin-bottom: 15px !important;
+}
+
+.accordianRoot {
+  .MuiButtonBase-root {
+    padding: 0px;
+  }
+  .MuiAccordionSummary-content {
+    .MuiTypography-root {
+      font-size: 1.7rem;
+      font-weight: 100;
+      color: #b5b5b5;
+    }
+  }
+  .MuiAccordionDetails-root {
+    padding: 0px;
+    font-size: 18px;
+    font-weight: unset;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+  }
+}

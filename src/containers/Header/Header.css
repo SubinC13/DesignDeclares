@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Druk";
+  src: url("../../assets/fonts/drunkBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.HeaderRoot {
+  padding: 30px !important;
+  background-color: #000;
+}
+
+.HeaderTitleFont {
+  font-family: "Druk", Helvetica, sans-serif !important;
+  font-size: 6rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  line-height: 88% !important;
+  letter-spacing: 0 !important;
+  color: #e7e7e7 !important;
+}
+
+.HeaderSubText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  line-height: 140% !important;
+  letter-spacing: 0 !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .HeaderRoot {
+    min-height: 80vh;
+    height: fit-content;
+  }
+  .HeaderTitleFont {
+    font-size: 10rem !important;
+  }
+
+  .HeaderSubText {
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .HeaderTitleFont {
+    font-size: 15.5rem !important;
+  }
+
+  .HeaderSubText {
+    font-size: 1.25rem !important;
+  }
+}
+
+.HeaderSpan {
+  display: inline-block;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.2;
+  background: linear-gradient(to top, #ff623f, #ff623f);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 0%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-size 0.5s ease;
+}
+
+.reveal-text {
+  display: inline-block;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.2;
+  background: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 0%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-size 0.5s ease;
+}
